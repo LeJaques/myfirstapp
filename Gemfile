@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+ruby '2.1.5'
 
 gem 'rails', '4.1.8'
 
@@ -11,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do 
 	gem 'sqlite3'
