@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+  resources :pins
+
   devise_for :users
   root "pages#home" 
   get  "about" => "pages#about" # creates about_path 
   get  "login" => "pages#login" # creates login_path
+
+  get  "destroy" => "pin#destroy"
 
 
 
