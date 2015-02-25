@@ -38,6 +38,4 @@ Rails.application.configure do
   # Required for Heroku
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  # fixing the spoofing problem with Paperclip
-  paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
-end
+ end
